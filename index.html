@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> Registration form </title>
+<style> 
+body{background-color:00771a;
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: 1;}
+
+@keyframes example{
+from {background-color: white;}
+to{background-color: 00771a;}}
+
+
+h1{color: white;}
+h2{color: white;}
+</style>
+<script>
+function message() {
+alert("Registered Successfully!");}
+</script>
+</head>
+<body>
+
+<h1> <center> <b> <u> Registration Form For Students </u> </b> </center> </h1> 
+<center> <img src="LOGO_60701.png" width="300px"> </center> <hr> </hr> 
+<h2>
+Name: <input type="text"> <br> </br>
+Gender: <input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female <br> </br>
+DOB: <input type="date"> <br> </br>
+Address: <textarea> </textarea> <br> </br>
+District: <select name="district" id="district">
+<option value="kasargod"> Kasargod </option>
+<option value="kannur"> Kannur </option>
+<option value="kozhikode"> Kozhikode </option>
+<option value="wayanad"> Wayanad </option>
+<option value="malappuram"> Malappuram </option>
+<option value="palakkad"> Palakkad </option>
+<option value="thrissur"> Thrissur </option>
+<option value="ernakulam"> Ernakulam </option>
+<option value="kottayam"> Kottayam </option>
+<option value="idukki"> Idukki </option>
+<option value="pathanamthitta"> Pathanamthitta </option>
+<option value="alappuzha"> Alappuzha </option>
+<option value="kollam"> Kollam </option>
+<option value="thiruvanathapuram"> Thiruvanathapuram </option> 
+</select> <br> </br>
+Number: <input type="number"> <br> </br>
+Email: <input type="email">  <br> </br>
+Input password: <input type="password"> <br> </br>
+Confirm password: <input type="password"> <br> </br>
+<button onclick="message()"> Submit </button>
+
+
+
+
+</body>
+</html>
